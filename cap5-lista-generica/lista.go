@@ -20,7 +20,7 @@ func (lista *ListaGenerica) RemoverInicio() interface{} {
 
 // RemoverFim remove último elemento de uma lista
 func (lista *ListaGenerica) RemoverFim() interface{} {
-	return lista.RemoverIndice(len(*lista)-1)
+	return lista.RemoverIndice(len(*lista) - 1)
 }
 
 func main() {
